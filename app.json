@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/participation/participation",
+    "pages/form/form",
+    "pages/ent/ent",
+    "pages/event/event",
+    "pages/advisory/advisory",
+    "pages/prompt/prompt",
+    "pages/user/dingdan",
+    "pages/address/address",
+    "pages/address/user-address/user-address",
+    "pages/payment/payment",
+    "pages/events/events",
+    "pages/prompts/prompts",
+    "pages/vprompt/vprompt",
+    "pages/relation/relation",
+    "pages/details/details",
+    "pages/formlist/formlist"
+  ],
+    "window":{
+      "backgroundTextStyle":"light",
+      "navigationBarBackgroundColor": "#1A83D4",
+      "navigationBarTitleText": "吊顶",
+      "navigationBarTextStyle": "#aaa"
+    }, 
+ 
+"tabBar": {
+  "color": "#452e49",
+  "selectedColor": "#1994E4",
+  "position": "bottom",
+  "list": [
+    {
+      "text": "吊顶",
+      "iconPath": "images/list01.png",
+      "selectedIconPath": "images/list01_l.png",
+      "pagePath": "pages/index/index"
+    },
+    {
+      "text": "订单",
+      "iconPath": "images/list02.png",
+      "selectedIconPath": "images/list02_l.png",
+      "pagePath": "pages/user/dingdan"
+    },
+    {
+      "text": "我的",
+      "iconPath": "images/list03.png",
+      "selectedIconPath": "images/list03_l.png",
+      "pagePath": "pages/user/user"
+    }
+  ]
+}
+
+}

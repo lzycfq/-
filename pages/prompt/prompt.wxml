@@ -1,0 +1,51 @@
+<!--pages/prompt/index.wxml-->
+<view class="container">
+ <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{banner}}" wx:key="banner">
+      <swiper-item>
+        <image src="{{item.pic_url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+ 
+ 
+<view class='content'>
+  <form class='section-volume-set' bindsubmit="formSubmit" >
+  <view class="section">
+    <!--选择  -->
+    <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+      <view class="picker">
+        <view class='list-pick list-pick-set' name='tittle'>
+          <view class='nbsp'></view>{{multiArray[0][multiIndex[0]]}}
+        </view>
+        <view class='list-gg'>——</view>
+        <view class='list-pick list-pick-me' name='room'>{{multiArray[1][multiIndex[1]]}}</view>
+        <view class='border'></view>
+      </view>
+    </picker>
+    <!--体积  -->
+    <view class='section-volume'>
+        <view class='relatv paddTop'>
+          <input class='set-input' type='digit' name='length' decode='{{true}}' placeholder=' 请输入房间长度'></input>
+          <view class='mi'>m</view>
+        </view>
+        <view class='relatv paddTop'>
+          <input class='set-input' type='digit' name='width' decode='{{true}}' placeholder=' 请输入房间宽度'></input>
+          <view class='mi'>m</view>
+        </view>
+        <view class="btn-area stron-section paddTop">
+          <button class='stron-button' formType="submit">开始计算</button> 
+        </view>
+    </view>
+  </view>
+  </form>
+</view>
+
+
+  <view class='text-spent-logs-atent'>
+    海龙好装潢 ● 每席皆珍藏
+  </view>
+
+
+</view>

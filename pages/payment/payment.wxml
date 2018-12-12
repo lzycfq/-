@@ -1,0 +1,4 @@
+<view>
+<text class='flag'>{{flag}}</text>
+<button class='pay' bindtap='pay' size='primary'>发起支付 </button>
+</view>

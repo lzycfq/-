@@ -1,0 +1,68 @@
+<view class="container">
+ <view class='head'></view>
+
+ <view class='separator'></view>
+ 
+ <!--pages/prompt/index.wxml-->
+
+
+<view class="container">
+
+ 
+  <view class='title'>个人中心</view>
+
+  <view class='menueview'>
+    <view class='men-block' wx:for-items="{{banner_list[0].banner}}">
+      <navigator url='{{item.url}}'>
+        <!-- <image src="{{item.pic_url}}" class="menue-image" /> -->
+        <view class='men-text'>
+          <text>{{item.title}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view class='menueview'>
+    <view class='men-block' wx:for-items="{{banner_list[1].banner}}">
+      <navigator url='{{item.url}}'>
+        <!-- <image src="{{item.pic_url}}" class="menue-image" /> -->
+        <view class='men-text'>
+          <text>{{item.title}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view class='menueview'>
+    <view class='men-block' wx:for-items="{{banner_list[2].banner}}">
+      <navigator url='{{item.url}}'>
+        <!-- <image src="{{item.pic_url}}" class="menue-image" /> -->
+        <view class='men-text'>
+          <text>{{item.title}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view class='menueview'>
+    <view class='men-block' wx:for-items="{{banner_list[3].banner}}">
+      <navigator url='{{item.url}}'>
+        <!-- <image src="{{item.pic_url}}" class="menue-image" /> -->
+        <view class='men-text'>
+          <text>{{item.title}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+ <view class='menueview'>
+    <view class='men-block' wx:for-items="{{banner_list[4].banner}}">
+      <navigator url='{{item.url}}'>
+        <!-- <image src="{{item.pic_url}}" class="menue-image" /> -->
+        <view class='men-text'>
+          <text>{{item.title}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+        
+</view>
+
+
+</view>

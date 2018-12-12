@@ -1,0 +1,158 @@
+
+
+/*多项选则*/
+/*
+event/index
+pormpt/index  
+
+*/
+.slide-image {
+  display: block;
+  height: 300rpx;
+  width:100%
+}
+.menueview{
+  display:flex;
+  margin: 0; 
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+.men-text{
+  width: 320px;
+  border: 1px solid #dddddd; 
+  text-align:center; 
+  position: relative; 
+  height: 50px;
+  color:black;
+  background: #eee;
+  border-radius: 22px;
+} 
+.menueview text{
+  font-size:32rpx;
+  display: block;
+  padding-top: 15px;
+}
+.men-block{
+  width:100%;
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center; 
+  align-items:center; 
+  box-sizing:border-box; 
+  padding-top: 20px;
+}
+
+
+
+/*计算  */
+.section{
+  margin:0 60rpx;
+  padding-top:10rpx;
+}
+.picker{
+  margin: auto;
+  border: 2rpx solid #919191;
+  height:90rpx;
+  line-height: 90rpx;
+  border-radius: 20rpx;
+  font-size:32rpx;
+  box-shadow:gainsboro 0px 0px 6px 1px inset;
+  position: relative;
+  text-align: center;
+  padding-right: 80rpx;
+}
+.picker view{
+  display: inline-block;
+}
+.border{
+  border-top:20rpx solid black;
+  border-left:20rpx solid transparent;
+  border-right:20rpx solid transparent;
+  border-bottom:20rpx solid transparent;
+  position:absolute;
+  top:38rpx;
+  right:18px;
+}
+.nbsp{
+  width:30rpx;
+}
+.relatv{
+  position: relative;
+}
+.mi{
+  font-size: 40rpx;
+  position: absolute;
+  top:38rpx;
+  right: 40rpx;
+}
+.section-volume input{
+  font-size: 30rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border: 2rpx solid #919191;
+  border-radius: 20rpx;
+  width: 100%;
+  box-shadow:gainsboro 0px 0px 6px 1px inset;
+}
+.section-volume{
+  padding-top: 20rpx;
+}
+.section-volume .paddTop{
+  padding:20rpx 0;
+  position: relative;
+}
+.btn-area{
+  padding-top: 40rpx;
+}
+
+.section-volume-set .stron-button{
+  margin: 10rpx auto;
+  border-radius: 20rpx;
+  width:100%;
+  font-size: 36rpx;
+  text-align: center;
+  height:90rpx;
+  line-height:90rpx;
+  background:#1A83D4;
+  color: #fff;
+}
+
+/*海龙好装潢  */
+.text-spent-logs-atent{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #1994E4;
+  text-align: center;
+  color: #FFF;
+  position: fixed;
+  bottom: 0rpx;
+  font-size: 32rpx;
+  letter-spacing: 10rpx;
+}
+input{
+  text-align: center;
+}
+
+
+.floor {
+  display:flex;
+  height:35px;
+  align-items:center; 
+  justify-content:space-between; 
+  padding-bottom:20px;
+  font-size:11px;
+  margin-top:-1px;
+}
+.floor view{
+  width: 100%;
+  text-align: center;
+}
+.floor view .span-tex{
+  display: inline-block;
+  width: 90rpx;
+  height: 2rpx;
+   background: black; 
+  position: relative;
+  top:-5rpx;
+}

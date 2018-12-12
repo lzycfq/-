@@ -1,0 +1,26 @@
+<!--logs.wxml-->
+<view class="container flex-wrap flex-direction-row">
+	<!-- left aside -->
+	<view class="aside flex-wrap flex-direction-col">
+		<block wx:for="{{navList}}" wx:key="seting">
+			<view class="type-nav {{curNav == item.id ? 'selected' : ''}}" bindtap="selectNav" data-index="{{index}}" data-id="{{item.id}}">{{item.name}}</view>
+		</block>
+	</view>
+
+	<!-- content -->
+	<view class="content flex-item">
+  <!--上大图  -->
+    <!-- <image id='item-set-img' src='../../images/banner/batting.png'></image> -->
+    <view class="dish">
+      <block wx:for="{{dishesList[curIndex]}}" wx:key="staem" >
+          <view class="flex-item">
+            <navigator url="../details/details?demo={{item.src}} &biref={{item.biref}} &num={{item.num}} &id={{item.id}}" >
+              <image class="title" src='{{item.src}}'></image> 
+              <text>{{item.biref}}</text>
+            </navigator>
+          </view>
+      </block>
+    </view>
+	</view>
+
+</view>

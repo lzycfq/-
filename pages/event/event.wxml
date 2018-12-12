@@ -1,0 +1,24 @@
+<!-- 一. 顶部swiper -->
+<view class="container">
+ <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{banner}}" wx:key="banner">
+      <swiper-item>
+        <image src="{{item.pic_url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+ 
+  <view class='menueview'>
+    <view class='men-block' wx:for="{{listFor}}" wx:key="listfor">
+      <navigator url='{{item.url}}'>
+        <view class='men-text'>
+          <text>{{item.title}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+  <view class='text-spent-logs-atent'>
+    海龙好装潢 ● 每席皆珍藏
+  </view>
+</view>

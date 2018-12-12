@@ -1,0 +1,28 @@
+<!--pages/relation/relation.wxml-->
+<view class='relation'>
+  <view class='relation-list'>
+    <view class='relation-value'>
+      <view class='title sent-list'>
+        郑州海龙吊顶
+      </view>
+      <view class='wx sent-list'>
+        微信：lihaizhilihaizhi
+      </view>
+      <view class='numphone sent-list' bindtap='mobile'>
+        电话：<view class='mobile'>0371-66512135</view>
+      </view>
+      <view class='address sent-list'>
+        地址：郑州市玉凤路郑汴路西南角凤凰吊顶市场C1
+      </view>
+      <view bindtap='map' class='sent-list' id='sent-list-page'>
+        <image src='../../images/ma.jpg'></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='floor'>
+  <view>
+     <view class='span-tex'></view> ©万吾科技 <view class='span-tex'></view> 
+  </view>
+</view> 
+

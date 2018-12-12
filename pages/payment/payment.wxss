@@ -1,0 +1,26 @@
+/* pages/payment/payment.wxss */
+.imgview{
+  /* border: red 1px solid; */
+  width: 66%;
+  margin: 58rpx auto;
+}
+.imgview>image{
+  width: 100%;
+}
+.text{
+  /* border: red solid 1px; */
+  text-align: center;
+  width: 80%;
+  margin:-58rpx auto;
+  font-size:36rpx;
+height: 100rpx;
+background-color:#F8F8F8;
+color: #000000;
+line-height: 100rpx;
+border-radius:20rpx;
+
+}
+.bood{
+  /* border: 1px solid red; */
+  margin-top: 110rpx;
+}

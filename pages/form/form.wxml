@@ -1,0 +1,37 @@
+
+
+<view class="table">
+  <view class="tr bg-at">
+    <view class="th" id='set'>工程项目计价清单表</view>
+  </view>
+  <view class="tr bg-w">
+    <view class="th">名称</view>
+    <view class="th">数量</view>
+    <view class="th ">单价</view>
+    <view class="th ">合计</view> 
+  </view>
+    <view wx:for="{{listData}}" wx:for-index="idx">
+     <view class="tr bg-g">
+      <view class="td">{{listData[idx].productName}}</view>
+      <view class="td">{{listData[idx].number}}{{listData[idx].productUnit}}</view>
+      <!-- <view class="td">{{listData[idx].productUnit}}</view> -->
+      <view class="td">{{listData[idx].productPrice}}元</view>
+      <view class="td">{{listData[idx].total}}元</view>
+      </view>
+    </view>
+     <view class="tr bg-g">
+    
+ <view class='foot'>合计: <text>{{totals}}元</text></view>
+ </view>
+</view>
+<view class="section dd">
+    <!-- <button class='button dd1' bindtap='saveOrder'  >确认订单</button> -->
+    <button class='button dd1' bindtap='payement' >确认订单</button>
+    <view class='seting-text'>注：请点击提交订单完成支付</view>
+    <view class='sent-text-last-ment-catent' decode='{{true}}'>
+      每平方单价为：{{pingprice}}元/m²     预估工费为：25元/m²
+    </view>
+  </view>
+    <view class='text-spent-logs-atent'>
+    海龙好装潢 ● 每席皆珍藏
+  </view>

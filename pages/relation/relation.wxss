@@ -1,0 +1,54 @@
+.relation-value{
+  width:90%;
+  margin:20rpx auto;
+  border: 2rpx solid #ddd;
+  background: #eee;
+}
+.relation-value .title{
+  font-size:36rpx;
+  text-align:center;
+}
+.relation-value .mobile{
+  display: inline;
+}
+.relation-value view{
+  margin:20rpx auto;
+}
+.relation-value view image{
+  display: block;
+  margin: auto;
+  width:649rpx;
+  height:290rpx;
+
+}
+/* 地理定位   */
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+.page-body {
+  padding: 20rpx 0;
+}
+.btn-area{
+  margin-top:14rpx;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx;
+}
+.btn-area button{
+  display: inline-block;
+  margin: 2rpx;
+  width: 49%;
+}
+.sent-list{
+  border-bottom:2rpx solid #BBB;
+  height:70rpx;
+  line-height:76rpx;
+  font-size:28rpx;
+  padding-left: 10rpx;
+}
+#sent-list-page{
+  height:310rpx;
+}
